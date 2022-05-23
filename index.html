@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>proyecto1</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>proyecto1</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="top-container">
+      <h1>
+        <center>
+          <i>
+            <font face="nunito,arial,verdana">
+              Cuestionario para <strong>nuevos</strong> clientes
+            </font>
+          </i>
+        </center>
+      </h1>
+    </div>
 
-   
-   <div class="top-container">
-   	<h1>
-   		<center>
-   			<i>
-   				<font face="nunito,arial,verdana">
-   					Cuestionario para <strong>nuevos</strong> clientes
-   				</font>
-   			</i>
-   		</center> 
-   	</h1>
-   </div>
+    <div class="middel-container">
+      <hr />
 
-   <div class="middel-container">
-   	<hr>
+      <form
+        action="http://formsubmit.co/jorge990416@gmail.com,"
+        method="POST"
+        enctype="text/plain"
+      >
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="emial"/>
+        <br>
+        <label for="mensaje">Edad:</label>
+        <input
+          type="mensaje"
+          name="mensaje"
+          id="mensaje"/>
+          <input
+          type="submit"
+          value="Send Request"
+        />
+      </form>
+    </div>
 
-
-  <form action="http://formsubmit.co/jorge990416@gmail.com," method="POST" enctype="text/plain" >
-	  <label for="nombre">Nombre:</label>
-	  <input type="text" name="nombre" id="nombre"/>
-	  <br>
-	  <label for="email">Email:</label>
-	  <input type="email" name="email" id="emial />
-	  <br>
-	<label for="mensaje">Edad:</label>
-        <input type="mensaje" name="mensaje" id="mensaje"
-    <input type="submit" value="Send Request">
-</form>					     
-</div>
-   	    
-   		
-
-   <div class="footer-container">
-   	
-   </div>
-
-</body>
+    <div class="footer-container"></div>
+  </body>
 </html>
